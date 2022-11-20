@@ -1,0 +1,17 @@
+.root {
+    @apply bg-black;
+    height: 358px;
+}
+
+.secondary {
+    @apply bg-white;
+}
+
+.container {
+    @apply flex flex-row;
+
+}
+
+.container>* {
+    @apply flex-1 px-16 py-4;
+}

@@ -1,0 +1,29 @@
+.root {
+    @apply grid grid-cols-1 bg-black;
+}
+
+.light{
+    @apply bg-white;
+}
+
+@screen sm {
+    .root {
+        @apply grid grid-cols-2;
+    }
+}
+
+@screen lg {
+    .root {
+        @apply grid grid-cols-3;
+    }
+
+    .layoutA>*:nth-child(6n + 1),
+    .layoutA>*:nth-child(6n + 5) {
+        @apply col-span-2 row-span-2;
+    }
+
+    .layoutB>*:nth-child(6n + 2),
+    .layoutB>*:nth-child(6n + 4) {
+        @apply col-span-2 row-span-2;
+    }
+}
