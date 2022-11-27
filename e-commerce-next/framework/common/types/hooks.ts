@@ -1,26 +1,30 @@
-import { ApiFetcher, ApiFetcherOptions } from "./api"
+import { ApiFetcher, ApiFetcherOptions } from "./api";
 
 export interface ApiHooks {
-    cart: {
-        useAddItem: MutationHook,
-        useCart: any
-    }
+  cart: {
+    useAddItem: MutationHook;
+    useCart: any;
+  };
 }
 
 export type MutationHookContext = {
-    fetch: (input: any) => any
-}
+  fetch: (input: any) => any;
+};
 
-export type FetcherHooksContext = {
-    input?: any,
-    fetch: ApiFetcher,
-    options: ApiFetcherOptions
-}
+export type HookFetcherContext = {
+  input?: any;
+  fetch: ApiFetcher;
+  options: ApiFetcherOptions;
+};
+
+export type HookFetcherOptions = {
+  query: string;
+};
+
+export type HookFetcherFn = (context: HookFetcherContext) => Promise<any>;
 
 export type MutationHook = {
-    fetcherOptions: ApiFetcherOptions,
-    fetcher: (comtext: FetcherHooksContext) => any,
-    useHook(
-        context: MutationHookContext
-    ): (input: any) => any 
-}
+  fetcherOptions: HookFetcherOptions;
+  fetcher: HookFetcherFn;
+  useHook(context: MutationHookContext): (input: any) => any;
+};
