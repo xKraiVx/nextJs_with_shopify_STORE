@@ -1,10 +1,10 @@
 import { useApiProvider } from "@common";
 import { ApiFetcher } from "@common/types/api";
-import { ApiHooks } from "@common/types/hooks";
+import { ApiHooks, Hook, SWRHook } from "@common/types/hooks";
 import { MutationHook } from "@common/types/hooks";
 import useSWR from "swr";
 
-export const useHook = (fn: (apiHooks: ApiHooks) => MutationHook) => {
+export const useHook = <H>(fn: (apiHooks: ApiHooks) => H) => {
   const { hooks } = useApiProvider();
   return fn(hooks);
 };
@@ -38,12 +38,16 @@ const useData = (hook: any, fetcher: ApiFetcher, ctx: any) => {
     }
   };
 
-  const response = useSWR(hook.fetchOptions.query, hookFetcher, ctx.swrOptions);
+  const response = useSWR(
+    hook.fetcherOptions.query,
+    hookFetcher,
+    ctx.swrOptions
+  );
 
   return response;
 };
 
-export const useSWRHook = (hook: any) => {
+export const useSWRHook = (hook: SWRHook) => {
   const { fetcher } = useApiProvider();
 
   return hook.useHook({

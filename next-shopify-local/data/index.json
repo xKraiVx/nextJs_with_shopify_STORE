@@ -4,7 +4,7 @@
     "__typename": "Checkout",
     "webUrl": "test_webUrl",
     "subtotalPriceV2": {
-      "amount": 80,
+      "amount": 2200,
       "currencyCode": "EUR"
     },
     "totalTaxV2": {
@@ -12,7 +12,7 @@
       "currencyCode": "EUR"
     },
     "totalPriceV2": {
-      "amount": 80,
+      "amount": 2200,
       "currencyCode": "EUR"
     },
     "completedAt": null,
@@ -20,35 +20,35 @@
     "taxesIncluded": true,
     "lineItems": [
       {
-        "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
-        "quantity": 4,
-        "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==__LI",
-        "title": "Cool Hat",
+        "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==",
+        "quantity": 10,
+        "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==__LI",
+        "title": "Lightweight Jacket",
         "variant": {
-          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
-          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
-          "title": "s / #000000",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "m / #ffffff",
           "sku": "",
           "selectedOptions": [
             {
               "name": "Size",
-              "value": "s"
+              "value": "m"
             },
             {
               "name": "Color",
-              "value": "#000000"
+              "value": "#ffffff"
             }
           ],
           "priceV2": {
-            "amount": "20.0",
+            "amount": "100.0",
             "currencyCode": "EUR"
           },
           "compareAtPriceV2": {
-            "amount": "30.0",
+            "amount": "70.0",
             "currencyCode": "EUR"
           },
           "image": {
-            "originalSrc": "Hat-front-black__72990.1603748583.png",
+            "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
             "altText": "",
             "width": 2048,
             "height": 2048
@@ -56,30 +56,34 @@
         },
         "product": {
           "__typename": "Product",
-          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
-          "handle": "cool-hat",
-          "title": "Cool Hat",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "handle": "lightweight-jacket",
+          "title": "Lightweight Jacket",
           "vendor": "EincodeTest",
-          "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing. • 60% cotton, 40% acrylic• Breathable cotton blend• Form-fitting shape• One size fits most",
-          "descriptionHtml": "<meta charset=\"utf-8\">\n<p data-mce-fragment=\"1\">The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.</p>\n<p data-mce-fragment=\"1\">• 60% cotton, 40% acrylic<br data-mce-fragment=\"1\">• Breathable cotton blend<br data-mce-fragment=\"1\">• Form-fitting shape<br data-mce-fragment=\"1\">• One size fits most</p>\n<meta charset=\"utf-8\">",
+          "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.",
+          "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!</span><br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.</span>",
           "priceRange": {
             "minVariantPrice": {
-              "amount": "20.0",
+              "amount": "100.0",
+              "currencyCode": "EUR"
+            },
+            "maxVariantPrice": {
+              "amount": "100.0",
               "currencyCode": "EUR"
             }
           },
           "options": [
             {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwMjY3OTk4MDM=",
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxNTc3NTU=",
               "name": "Size",
               "values": [
-                "s",
                 "l",
-                "m"
+                "m",
+                "s"
               ]
             },
             {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODkwODQxNzY1NzE=",
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxOTA1MjM=",
               "name": "Color",
               "values": [
                 "#000000",
@@ -89,68 +93,8 @@
           ],
           "variants": [
             {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
-              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
-              "title": "s / #000000",
-              "sku": "",
-              "selectedOptions": [
-                {
-                  "name": "Size",
-                  "value": "s"
-                },
-                {
-                  "name": "Color",
-                  "value": "#000000"
-                }
-              ],
-              "priceV2": {
-                "amount": "20.0",
-                "currencyCode": "EUR"
-              },
-              "compareAtPriceV2": {
-                "amount": "30.0",
-                "currencyCode": "EUR"
-              },
-              "image": {
-                "originalSrc": "Hat-front-black__72990.1603748583.png",
-                "altText": "",
-                "width": 2048,
-                "height": 2048
-              }
-            },
-            {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjM2NzkzMQ==",
-              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
-              "title": "s / #ffffff",
-              "sku": "",
-              "selectedOptions": [
-                {
-                  "name": "Size",
-                  "value": "s"
-                },
-                {
-                  "name": "Color",
-                  "value": "#ffffff"
-                }
-              ],
-              "priceV2": {
-                "amount": "20.0",
-                "currencyCode": "EUR"
-              },
-              "compareAtPriceV2": {
-                "amount": "30.0",
-                "currencyCode": "EUR"
-              },
-              "image": {
-                "originalSrc": "Hat-front-black__72990.1603748583.png",
-                "altText": "",
-                "width": 2048,
-                "height": 2048
-              }
-            },
-            {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQzMzQ2Nw==",
-              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
               "title": "l / #000000",
               "sku": "",
               "selectedOptions": [
@@ -164,23 +108,23 @@
                 }
               ],
               "priceV2": {
-                "amount": "20.0",
+                "amount": "100.0",
                 "currencyCode": "EUR"
               },
               "compareAtPriceV2": {
-                "amount": "30.0",
+                "amount": "70.0",
                 "currencyCode": "EUR"
               },
               "image": {
-                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
                 "altText": "",
                 "width": 2048,
                 "height": 2048
               }
             },
             {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ2NjIzNQ==",
-              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ2MzQxOQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
               "title": "l / #ffffff",
               "sku": "",
               "selectedOptions": [
@@ -194,23 +138,17 @@
                 }
               ],
               "priceV2": {
-                "amount": "20.0",
+                "amount": "100.0",
                 "currencyCode": "EUR"
               },
               "compareAtPriceV2": {
-                "amount": "30.0",
+                "amount": "70.0",
                 "currencyCode": "EUR"
-              },
-              "image": {
-                "originalSrc": "Hat-front-black__72990.1603748583.png",
-                "altText": "",
-                "width": 2048,
-                "height": 2048
               }
             },
             {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQ5OTAwMw==",
-              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
               "title": "m / #000000",
               "sku": "",
               "selectedOptions": [
@@ -224,23 +162,23 @@
                 }
               ],
               "priceV2": {
-                "amount": "20.0",
+                "amount": "100.0",
                 "currencyCode": "EUR"
               },
               "compareAtPriceV2": {
-                "amount": "30.0",
+                "amount": "70.0",
                 "currencyCode": "EUR"
               },
               "image": {
-                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
                 "altText": "",
                 "width": 2048,
                 "height": 2048
               }
             },
             {
-              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjU2NDUzOQ==",
-              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjQ5NTQyNjE2OTE=",
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
               "title": "m / #ffffff",
               "sku": "",
               "selectedOptions": [
@@ -254,15 +192,75 @@
                 }
               ],
               "priceV2": {
-                "amount": "20.0",
+                "amount": "100.0",
                 "currencyCode": "EUR"
               },
               "compareAtPriceV2": {
-                "amount": "30.0",
+                "amount": "70.0",
                 "currencyCode": "EUR"
               },
               "image": {
-                "originalSrc": "Hat-front-black__72990.1603748583.png",
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU2MTcyMw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "s / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU5NDQ5MQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "s / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
                 "altText": "",
                 "width": 2048,
                 "height": 2048
@@ -271,25 +269,613 @@
           ],
           "images": [
             {
-              "originalSrc": "Hat-front-black__72990.1603748583.png",
+              "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
               "altText": "",
               "width": 2048,
               "height": 2048
             },
             {
-              "originalSrc": "Hat-back-black__57260.1602591509.png",
+              "originalSrc": "Men-Jacket-Side-Black__68202.1603283961.png",
               "altText": "",
               "width": 2048,
               "height": 2048
             },
             {
-              "originalSrc": "Hat-left-black__51142.1602591510.png",
+              "originalSrc": "Men-Jacket-Back-Black__33864.1603283963.png",
               "altText": "",
               "width": 2048,
               "height": 2048
             },
             {
-              "originalSrc": "Hat-front-white__31525.1602591510.png",
+              "originalSrc": "Men-Jacket-Front-White__95300.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Side-White__91924.1603283962.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Back-White__02866.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        }
+      },
+      {
+        "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==",
+        "quantity": 8,
+        "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==__LI",
+        "title": "Lightweight Jacket",
+        "variant": {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "m / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "m"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          },
+          "image": {
+            "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+            "altText": "",
+            "width": 2048,
+            "height": 2048
+          }
+        },
+        "product": {
+          "__typename": "Product",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "handle": "lightweight-jacket",
+          "title": "Lightweight Jacket",
+          "vendor": "EincodeTest",
+          "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.",
+          "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!</span><br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.</span>",
+          "priceRange": {
+            "minVariantPrice": {
+              "amount": "100.0",
+              "currencyCode": "EUR"
+            },
+            "maxVariantPrice": {
+              "amount": "100.0",
+              "currencyCode": "EUR"
+            }
+          },
+          "options": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxNTc3NTU=",
+              "name": "Size",
+              "values": [
+                "l",
+                "m",
+                "s"
+              ]
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxOTA1MjM=",
+              "name": "Color",
+              "values": [
+                "#000000",
+                "#ffffff"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "l / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ2MzQxOQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "l / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "m / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "m / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU2MTcyMw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "s / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU5NDQ5MQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "s / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            }
+          ],
+          "images": [
+            {
+              "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Side-Black__68202.1603283961.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Back-Black__33864.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Front-White__95300.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Side-White__91924.1603283962.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Back-White__02866.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        }
+      },
+      {
+        "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==",
+        "quantity": 4,
+        "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==__LI",
+        "title": "Lightweight Jacket",
+        "variant": {
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==",
+          "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "title": "l / #000000",
+          "sku": "",
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "l"
+            },
+            {
+              "name": "Color",
+              "value": "#000000"
+            }
+          ],
+          "priceV2": {
+            "amount": "100.0",
+            "currencyCode": "EUR"
+          },
+          "compareAtPriceV2": {
+            "amount": "70.0",
+            "currencyCode": "EUR"
+          },
+          "image": {
+            "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+            "altText": "",
+            "width": 2048,
+            "height": 2048
+          }
+        },
+        "product": {
+          "__typename": "Product",
+          "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+          "handle": "lightweight-jacket",
+          "title": "Lightweight Jacket",
+          "vendor": "EincodeTest",
+          "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.",
+          "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!</span><br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Long sleeve ripstop jacket colorblocked in black. Rough pattern in obsidian black and brown printed throughout. Printed graphic in white throughout. Logo-woven webbing trim in white and black throughout. Bungee-style drawstring at hood featuring rubberized logo hardware. Zip closure at front. Rubberized logo appliqué at chest. Welt pockets and textile logo patch in orange at waist. Elasticized cuffs. Partially lined. Black hardware.</span>",
+          "priceRange": {
+            "minVariantPrice": {
+              "amount": "100.0",
+              "currencyCode": "EUR"
+            },
+            "maxVariantPrice": {
+              "amount": "100.0",
+              "currencyCode": "EUR"
+            }
+          },
+          "options": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxNTc3NTU=",
+              "name": "Size",
+              "values": [
+                "l",
+                "m",
+                "s"
+              ]
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0T3B0aW9uLzg3ODk0NTgxOTA1MjM=",
+              "name": "Color",
+              "values": [
+                "#000000",
+                "#ffffff"
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQzMDY1MQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "l / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ2MzQxOQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "l / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "l"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjQ5NjE4Nw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "m / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjUyODk1NQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "m / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "m"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU2MTcyMw==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "s / #000000",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#000000"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            },
+            {
+              "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNjM2MjU5NDQ5MQ==",
+              "productId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzY4NjUyNzg0MzU1MTU=",
+              "title": "s / #ffffff",
+              "sku": "",
+              "selectedOptions": [
+                {
+                  "name": "Size",
+                  "value": "s"
+                },
+                {
+                  "name": "Color",
+                  "value": "#ffffff"
+                }
+              ],
+              "priceV2": {
+                "amount": "100.0",
+                "currencyCode": "EUR"
+              },
+              "compareAtPriceV2": {
+                "amount": "70.0",
+                "currencyCode": "EUR"
+              },
+              "image": {
+                "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+                "altText": "",
+                "width": 2048,
+                "height": 2048
+              }
+            }
+          ],
+          "images": [
+            {
+              "originalSrc": "Men-Jacket-Front-Black__15466.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Side-Black__68202.1603283961.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Back-Black__33864.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Front-White__95300.1603283963.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Side-White__91924.1603283962.png",
+              "altText": "",
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "originalSrc": "Men-Jacket-Back-White__02866.1603283963.png",
               "altText": "",
               "width": 2048,
               "height": 2048
